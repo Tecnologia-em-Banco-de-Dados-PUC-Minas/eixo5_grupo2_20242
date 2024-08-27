@@ -1,20 +1,30 @@
 # Eixo-5
 Arquitetura de Dados em Nuvem
 
-# TÍTULO DO PROJETO
-`CURSO`
-`ANO/SEMESTRE`
+# Análise Preditiva Olímpica: Comparando Previsões e Realidade em 2024
+Tecnologia em Bancos de Dados
+2024/2º semestre
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto tem como objetivo comparar dados de todas as Olimpíadas até 2020 para prever o desempenho dos países nos Jogos Olímpicos de 2024. Com os resultados reais de 2024 já disponíveis, essa iniciativa busca analisar as discrepâncias entre as previsões geradas pelos algoritmos de aprendizagem de máquinas e os resultados efetivamente alcançados. 
+
+A partir dessa análise, será possível avaliar a acurácia da pesquisa, identificar melhorias potenciais nos modelos preditivos e compreender melhor os fatores que influenciam o desempenho esportivo em nível global.
+
+Links para os datasets: 
+
+1 - https://www.kaggle.com/datasets/piterfm/olympic-games-medals-19862018
+
+2 - https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
 
 ## Integrantes
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Andressa Carneiro Rocha
+* Elias Nogueira Salgado
+* Laura Slater Alves
+* Pedro Henrique Dos Santos Machado
+* Thales De Mattos Oliveira
+* Vanessa Omacht Schnee
 
 ## Orientador
-* Nome completo do professor 1
+* Cristiano Geraldo Teixeira Silva
 
 # Documentação
 
