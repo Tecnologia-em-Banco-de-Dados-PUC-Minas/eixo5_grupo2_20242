@@ -26,7 +26,7 @@ Relevância: Foco nas variáveis-chave como medalhas por país, idade dos atleta
 
 ![diagramaOlimpic](https://github.com/user-attachments/assets/cece1f1f-2de3-49b7-b6ad-f4463c51268d)
 
-Coleta: Obtenção dos datasets públicos da plataforma Kaggleno formato CSV.
+Coleta: Obtenção dos datasets públicos da plataforma Kaggle no formato CSV.
 
 Transformação: Unificação dos CSVs e tratamento via Google Colab.
 
