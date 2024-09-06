@@ -14,6 +14,7 @@ Modelo de Governança de Dados:
 
 Para garantir que a coleta e o uso dos dados sigam as melhores práticas, será implementada uma estratégia de governança de dados, apoiada em uma estrutura de gerenciamento que define requisitos, procedimentos, funções e responsabilidades ao longo de todo o ciclo de vida dos dados.
 
+
 Planejamento de Governança de Dados:
 
 Requisitos de Dados:
@@ -24,13 +25,17 @@ Relevância: Foco nas variáveis-chave como medalhas por país, idade dos atleta
 
 Procedimentos:
 
-Armazenamento no S3: Os datasets serão enviados para um bucket do Amazon S3, assegurando escalabilidade e acesso rápido.
+Armazenamento no S3: Os datasets serão enviados para um bucket do Amazon S3, 
+assegurando escalabilidade e acesso rápido.
 Instância MySQL no RDS: Após o processamento inicial, os dados serão carregados em uma instância MySQL no Amazon RDS, que será usada para consultas e análises. Isso permitirá fácil integração com ferramentas analíticas e scripts de machine learning.
 Limpeza e Qualidade dos Dados: Aplicar procedimentos de limpeza, como remoção de duplicatas e preenchimento de valores ausentes de forma coerente.
 
 Embora os dados sejam públicos, será implementado controle de acesso rígido no bucket S3 e na instância RDS para garantir a segurança e evitar acessos não autorizados.
 
 Ciclo de Vida dos Dados:
+
+![diagramaOlimpic](https://github.com/user-attachments/assets/cece1f1f-2de3-49b7-b6ad-f4463c51268d)
+
 
 Coleta: Importação dos datasets públicos.
 Armazenamento: Dados enviados para o Amazon S3 e posteriormente processados e carregados em uma instância MySQL no RDS.
