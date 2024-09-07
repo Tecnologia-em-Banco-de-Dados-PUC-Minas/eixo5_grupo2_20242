@@ -8,7 +8,7 @@ A coleta de dados para o projeto Análise Preditiva Olímpica: Comparando Previs
 
 2 - https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
 
-Esses datasets serão baixados no formato CSV e inseridos no Google Colab.
+Os datasets serão baixados no formato CSV e inicialmente manipulados no Google Colab, permitindo uma análise e pré-processamento colaborativo dos dados.
 
 ## Modelo de Governança de Dados:
 
@@ -28,15 +28,15 @@ Relevância: Foco nas variáveis-chave como medalhas por país, idade dos atleta
 
 Coleta: Obtenção dos datasets públicos da plataforma Kaggle no formato CSV.
 
-Transformação: Unificação dos CSVs e tratamento via Google Colab.
+Transformação: Os dados serão unificados e tratados via Google Colab, incluindo a limpeza e organização para garantir consistência.
 
-Armazenamento: Dados enviados para o Amazon S3 para armazenamento.
+Armazenamento: Após o pré-processamento, os dados serão enviados e armazenados em um bucket Amazon S3, oferecendo uma solução escalável e segura para a guarda dos dados.
 
-Processamento: Criação e execução de modelos de machine learning utilizando os dados armazenados no S3.
+Processamento: Os modelos de machine learning serão desenvolvidos e executados utilizando os dados armazenados no S3. O Amazon SageMaker será utilizado para treinar e validar os modelos.
+
+Análise: Comparação dos resultados gerados pelos modelos preditivos com os resultados reais das Olimpíadas de 2024, avaliando as discrepâncias e a acurácia das previsões.
 
 Refinamento: Ajuste dos modelos com base nas discrepâncias observadas entre as previsões e os resultados reais.
-
-Análise: Comparação dos dados gerados pelo sagemaker com os resultados das olimpiadas de 2024
 
 Essa estratégia baseada na infraestrutura da AWS garante segurança, escalabilidade e eficiência na coleta, armazenamento e análise dos dados, assegurando que as previsões sejam confiáveis e possam ser comparadas de forma precisa com os resultados dos Jogos Olímpicos de 2024.
 
