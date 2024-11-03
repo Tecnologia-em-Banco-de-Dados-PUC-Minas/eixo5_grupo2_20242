@@ -152,8 +152,6 @@ Usando a opção de AutoML, que treina o modelo automaticamente no SageMaker Can
 
 ![image](https://github.com/user-attachments/assets/45ba3620-99d2-4406-9a2e-04ccc99f34dc)
 
-![image](https://github.com/user-attachments/assets/00b24fea-620c-4799-8dd0-cf1d1d87e44e)
-
 ![image](https://github.com/user-attachments/assets/3ac42279-7d9d-41bc-b427-bb87b1e4b0de)
 
 ### Criação do modelo 
