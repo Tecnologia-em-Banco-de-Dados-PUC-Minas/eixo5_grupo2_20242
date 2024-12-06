@@ -29,7 +29,7 @@ Neste projeto, utilizamos técnicas de aprendizado de máquina para prever deter
    - Incorporar outras bases de dados com mais características de atletas e resultados aumentaria a qualidade e a diversidade dos registros. Isso forneceria um contexto mais rico para o modelo, potencialmente melhorando sua precisão.
 
 3. **Exploração de Outras Abordagens**:
-   - Estudar e testar outras abordagens, utilizando diferentes algoritmos e modelos preditivos, pode levar a melhorias significativas no desempenho do modelo. Técnicas como Gradient Boosting, Random Forest e redes neurais profundas podem ser exploradas.
+   - Estudar e testar outras abordagens, utilizando diferentes algoritmos e modelos preditivos, pode levar a melhorias significativas no desempenho do modelo. Técnicas como Gradient Boosting, Random Forest, redes neurais profundas, entre outras.
 
 4. **Treinamento Separado de Datasets**:
    - Treinar separadamente os datasets com registros de quem ganhou medalhas e quem não ganhou pode ajudar a entender melhor o comportamento dos modelos em diferentes cenários. Isso pode revelar padrões específicos que podem ser utilizados para melhorar as previsões.
